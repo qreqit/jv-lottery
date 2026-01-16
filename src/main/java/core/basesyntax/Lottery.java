@@ -4,6 +4,7 @@ import java.util.Random;
 
 public class Lottery {
     private static final int BOUNDARY_NUMBER = 100;
+
     public Ball getRandomBall() {
         Random random = new Random();
         int indexColor = random.nextInt(Color.values().length);
